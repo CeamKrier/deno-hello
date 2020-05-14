@@ -1,0 +1,5 @@
+scripts:
+  start: deno run --allow-net --allow-read index.ts
+  clean: deno run --allow-net --allow-read --reload index.ts
+  devDeps:
+    - deno install --allow-read --allow-env --allow-run -n vr https://deno.land/x/velociraptor/cli.ts
